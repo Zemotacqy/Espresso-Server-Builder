@@ -188,7 +188,7 @@ class ServerBuilder {
     } catch (err) {
       let msg = `Unable to build Espresso server - ${err.message}\n` +
         `Gradle error message:${EOL}${buildLastLines}`;
-      this.log.errorAndThrow(msg);
+      console.log(msg);
     }
   }
 }
