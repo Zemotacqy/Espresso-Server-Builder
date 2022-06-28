@@ -1,0 +1,17 @@
+{
+  "name": "server_builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "driver.js",
+  "scripts": {
+    "build": "node driver.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@appium/support": "^2.59.2",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7",
+    "teen_process": "^1.16.0"
+  }
+}
