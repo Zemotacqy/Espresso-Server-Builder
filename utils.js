@@ -72,3 +72,6 @@ function updateDependencyLines (originalContent, dependencyPlaceholder, dependen
 }
 
 module.exports.copyGradleProjectRecursively = copyGradleProjectRecursively;
+module.exports.requireOptions = requireOptions;
+module.exports.updateDependencyLines = updateDependencyLines;
+module.exports.qualifyActivityName = qualifyActivityName;
